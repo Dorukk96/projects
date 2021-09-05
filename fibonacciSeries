@@ -1,0 +1,17 @@
+def FIBONACCI(lengthOfList):
+    '''
+    
+    '''    
+    counter = 1
+    i , j = 0 , 1
+    fiboList = []
+    while True:
+        print(i , end=(", "))
+        fiboList.append(i)
+        i , j = j , j+i
+        counter += 1
+        if counter > lengthOfList:
+            break
+       
+    return fiboList
+    

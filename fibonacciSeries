@@ -1,7 +1,4 @@
-def FIBONACCI(lengthOfList):
-    '''
-    
-    '''    
+def FIBONACCI(lengthOfList):   
     counter = 1
     i , j = 0 , 1
     fiboList = []
